@@ -4,8 +4,10 @@ let sueldoConAumento: number = 0;
 //Utilizo if para dar una condición y si se cumple le aplica un 20% de aumento
 if (0 < sueldoNormal && sueldoNormal <=15000){
 sueldoConAumento= sueldoNormal * 1.2;
+  //Declaro el mensaje que se mostrará por consola
 console.log ("Corresponde aumento de 20%");
 }
+//Utilizo else if para dar más consdiciones 
 else if (15001< sueldoNormal && sueldoNormal <=20000){
 sueldoConAumento=sueldoNormal * 1.1;
 console.log("Corresponde aumento de 10%");
